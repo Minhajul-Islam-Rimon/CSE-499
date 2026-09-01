@@ -11,3 +11,28 @@ __pycache__/
 *.ckpt
 
 *.bin
+
+# Partial browser downloads
+*.crdownload
+*.part
+
+# Task-generated temporary files and local tool caches
+tmp/
+
+# LaTeX auxiliary build files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# Local LaTeX compiler binaries
+tectonic.exe
+
+# Duplicate local paper exports (canonical PDF is under CSE499B/ieee_paper/)
+CSE499B/main.pdf
+CSE499B/main(1).pdf
